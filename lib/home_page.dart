@@ -211,6 +211,14 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                             ),
                             onTap: () {},
                           ),
+                           ListTile(
+                            leading: const Icon(Icons.cloud, color: Colors.white),
+                            title: const Text(
+                              'Cload Store',
+                              style: TextStyle(color: Colors.white),
+                            ),
+                            onTap: () {},
+                          ),
                           ListTile(
                             leading: const Icon(Icons.settings,
                                 color: Colors.white),
@@ -221,10 +229,10 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                             onTap: () {},
                           ),
                           ListTile(
-                            leading: const Icon(Icons.logout,
+                            leading: const Icon(Icons.share,
                                 color: Colors.white),
                             title: const Text(
-                              'Logout',
+                              'Share',
                               style: TextStyle(color: Colors.white),
                             ),
                             onTap: () {},
